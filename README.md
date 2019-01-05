@@ -2,7 +2,9 @@
 
 ## Materials
 
-* <https://docs.google.com/presentation/d/1w4WwIpuFExtFFeLAwU99gxKBkVZocex2Syct7YB1KV0/edit?usp=sharing>
+* Docker Conntainer <https://docs.google.com/presentation/d/1w4WwIpuFExtFFeLAwU99gxKBkVZocex2Syct7YB1KV0/edit?usp=sharing>
+
+* Cloud Native <https://docs.google.com/presentation/d/1AUljWBjHaryWNrBjqznILTOFUHl-uAqPwbojYuZ2lGo/edit?usp=sharing>
 
 ## Server preparation
 
@@ -14,13 +16,13 @@
 
 3. Your key must not be publicly viewable for SSH to work. Use this command if needed
 
-`chmod 400 gt-workshop-docker.pem`
+    `chmod 400 gt-workshop-docker.pem`
 
 4. Connect to your instance using its Public DNS
 
-`ec2-3-1-50-146.ap-southeast-1.compute.amazonaws.com`
+    `ec2-3-1-50-146.ap-southeast-1.compute.amazonaws.com`
 
-`ssh -i "gt-workshop-docker.pem" ubuntu@ec2-3-1-50-146.ap-southeast-1.compute.amazonaws.com`
+    `ssh -i "gt-workshop-docker.pem" ubuntu@ec2-3-1-50-146.ap-southeast-1.compute.amazonaws.com`
 
 ### Node.js Ubuntu
 
