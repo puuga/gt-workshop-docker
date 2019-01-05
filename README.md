@@ -113,10 +113,20 @@ If you want to avoid typing sudo whenever you run the docker command, add your u
 
 `$ sudo usermod -aG docker ${USER}`
 
-## Workshop preparation
+## Workshop preparation (Attendees)
+
+### Docker Account
+
+<https://hub.docker.com/>
+
+### GitHub Account (Optional)
+
+<https://github.com/>
 
 ### Clone workshop repo to local
 
 `git clone https://github.com/puuga/gt-workshop-docker.git`
+
+Logic goes here ...
 
 ## May the force be with you ;-)
